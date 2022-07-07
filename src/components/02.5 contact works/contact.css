@@ -1,0 +1,67 @@
+:root {
+  /* colors */
+  --color-bg: #ebf0f2;
+  --color-primary: #94a2a6;
+  --color-secondary-text: #2c3740;
+  --color-text: #080a0d;
+  --color-ligt-bg: #d0d8d9;
+
+  /* responsive */
+  --container-width-large: 75%;
+  --container-width-medium: 86%;
+  --container-width-small: 93%;
+  /* transition */
+  --transition: all 400ms ease;
+}
+.portfolio_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+  row-gap: 5rem;
+}
+.portfolio_item {
+  background: var(--color-primary);
+  border-radius: 2rem;
+  transition: var(--transition);
+}
+.portfolio_container :hover {
+  background: var(--color-bg);
+}
+.portfolio_item h3 {
+  margin: 1.5rem 0 1.5rem 0;
+  text-align: center;
+}
+.btn {
+  margin-left: 2rem;
+}
+.portfolio_item_image {
+  margin-top: 1rem;
+}
+.portfolio_item_image > img {
+  border-radius: 0 0 2rem 2rem;
+}
+/* above pc */
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+  .portfolio_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* ========== Media Queries (medium devices) / Tablets Starts  ========== */
+@media screen and (max-width: 1024px) {
+  .portfolio_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 600px) and (max-width: 730px) {
+  .portfolio_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* ========== Media Queries (small devices) / Phones Starts  ========== */
+
+@media screen and (max-width: 600px) {
+  .portfolio_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  /* colors */
+  --color-bg: #ebf0f2;
+  --color-primary: #94a2a6;
+  --color-secondary-text: #2c3740;
+  --color-text: #080a0d;
+  --color-ligt-bg: #d0d8d9;
+
+  /* responsive */
+  --container-width-large: 75%;
+  --container-width-medium: 86%;
+  --container-width-small: 93%;
+  /* transition */
+  --transition: all 400ms ease;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* ========== general styles start ========== */
+.container {
+  width: var(--container-width-large);
+  margin: 0 auto;
+  /* border: 2px solid #080a0d; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h5,
+section > h2 {
+  text-align: center;
+  color: var(--color-secondary-text);
+}
+
+section > h2 {
+  color: var(--color-secondary-text);
+  margin-bottom: 3rem;
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-ligt-bg);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-secondary-text);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 1px solid var(--color-secondary-text);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.btn-primary {
+  background: var(--color-secondary-text);
+  color: var(--color-bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ========== general styles ends ========== */
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* ========== Media Queries (medium devices) / Tablets Starts  ========== */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-medium);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+/* ========== Media Queries (medium devices) / Tablets ends  ========== */
+/* 
+ */
+/* 
+ */
+/* 
+ */
+/* 
+ */
+/* ========== Media Queries (small devices) / Phones Starts  ========== */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-small);
+  }
+  section {
+    margin-top: 6rem;
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+/* ========== Media Queries (small devices) / Phones ends  ========== */

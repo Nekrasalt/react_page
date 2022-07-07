@@ -1,0 +1,119 @@
+:root {
+  /* colors */
+  --color-bg: #ebf0f2;
+  --color-primary: #94a2a6;
+  --color-secondary-text: #2c3740;
+  --color-text: #080a0d;
+  --color-ligt-bg: #d0d8d9;
+
+  /* responsive */
+  --container-width-large: 75%;
+  --container-width-medium: 86%;
+  --container-width-small: 93%;
+  /* transition */
+  --transition: all 400ms ease;
+}
+.container_about {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+.about_me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  /* background: linear-gradient(
+    45deg,
+    transparent,  
+    var(--color-primary),
+    transparent
+  ); */
+  display: grid;
+  place-items: center;
+}
+.about_me_image {
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+.about_me_image:hover {
+  transform: rotate(0deg);
+}
+.about_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.8rem;
+}
+.about_card {
+  color: var(--color-bg);
+  background: var(--color-secondary-text);
+  transition: var(--transition);
+  /* height: 10rem; */
+  text-align: center;
+  border-radius: 2rem;
+  padding: 2rem;
+  border: 2px solid transparent;
+  cursor: default;
+}
+.about_card:hover {
+  color: var(--color-secondary-text);
+  background: transparent;
+  border: 2px solid var(--color-secondary-text);
+}
+.about_icon {
+  font-size: 1.5rem;
+  color: var(--color-ligt-bg);
+  margin-bottom: 1rem;
+}
+.about_card:hover .about_icon {
+  color: var(--color-secondary-text);
+}
+.about_card > h5 {
+  font-size: 1rem;
+  font-weight: 800;
+}
+.about_card > small {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  opacity: 0.9;
+}
+.about_card:hover small {
+  opacity: 1;
+  color: var(--color-secondary-text);
+}
+.about_content > p {
+  margin: 2rem 0 2.5rem 0.5rem;
+  color: var(--color-primary);
+}
+
+/* ========== Media Queries (medium devices) / Tablets Starts  ========== */
+@media screen and (max-width: 1024px) {
+  .container_about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about_me {
+    margin: 2rem auto 4rem;
+    width: 50%;
+  }
+  .about_content p {
+    margin: 1.2rem 0 1.2rem 0.5rem;
+  }
+}
+/* ========== Media Queries (medium devices) / Tablets Ends  ========== */
+
+/* ========== Media Queries (small devices) / Phones Starts  ========== */
+
+@media screen and (max-width: 600px) {
+  .about_cards {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 1rem;
+  }
+  .about_content {
+    text-align: center;
+  }
+}

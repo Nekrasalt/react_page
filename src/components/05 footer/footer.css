@@ -1,0 +1,51 @@
+:root {
+  /* colors */
+  --color-bg: #ebf0f2;
+  --color-primary: #94a2a6;
+  --color-secondary-text: #2c3740;
+  --color-text: #080a0d;
+  --color-ligt-bg: #d0d8d9;
+
+  /* responsive */
+  --container-width-large: 75%;
+  --container-width-medium: 86%;
+  --container-width-small: 93%;
+  /* transition */
+  --transition: all 400ms ease;
+}
+footer {
+  background: var(--color-secondary-text);
+  padding: 3rem 0 8rem 0;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.footer_logo {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.permalinks {
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.footer_socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+.footer_copyright {
+  color: var(--color-primary);
+}
+/* ========== Media Queries (small devices) / Phones Starts  ========== */
+
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+  }
+}

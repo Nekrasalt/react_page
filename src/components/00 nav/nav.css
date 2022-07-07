@@ -1,0 +1,59 @@
+:root {
+  /* colors */
+  --color-bg: #ebf0f2;
+  --color-primary: #94a2a6;
+  --color-secondary-text: #2c3740;
+  --color-text: #080a0d;
+  --color-ligt-bg: #d0d8d9;
+
+  /* responsive */
+  --container-width-large: 75%;
+  --container-width-medium: 86%;
+  --container-width-small: 93%;
+  /* transition */
+  --transition: all 400ms ease;
+}
+nav {
+  background: rgba(81, 81, 81, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  width: max-content;
+  display: block;
+  display: flex;
+  gap: 1rem;
+
+  padding: 0.1rem 2rem;
+  z-index: 20;
+  position: fixed;
+  top: 91.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  transition: var(--transition);
+}
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+  color: var(--color-bg);
+  transition: var(--transition);
+}
+nav a :hover {
+  color: var(--color-text);
+  --transition: all 400ms ease;
+}
+
+/* ===== media for mobile devices ===== */
+@media screen and (max-width: 600px) {
+  nav {
+    top: 92.7%;
+  }
+  nav a {
+    padding: 0.2rem;
+    font-size: 1.7rem;
+    /* font-size: 1.3rem; */
+  }
+}
