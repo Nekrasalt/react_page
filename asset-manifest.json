@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react_page/static/css/main.f9f045f7.css",
+    "main.js": "/react_page/static/js/main.72731149.js",
+    "static/js/787.4fac3492.chunk.js": "/react_page/static/js/787.4fac3492.chunk.js",
+    "static/media/Copy.pdf": "/react_page/static/media/Copy.f8984ab159cf4825bbdc.pdf",
+    "static/media/smile.png": "/react_page/static/media/smile.b89b7ac95502331c69cd.png",
+    "static/media/kul.png": "/react_page/static/media/kul.996e9a2fc36226722219.png",
+    "static/media/6.jpg": "/react_page/static/media/6.4785a4a39355e895cdd6.jpg",
+    "static/media/nek.png": "/react_page/static/media/nek.e114bca5b6c443287c54.png",
+    "static/media/holy.png": "/react_page/static/media/holy.442df65b6c5309df7a02.png",
+    "static/media/4.webp": "/react_page/static/media/4.9b18adf10d10fa55d553.webp",
+    "static/media/2.webp": "/react_page/static/media/2.f22c001868f2ef250613.webp",
+    "static/media/1.webp": "/react_page/static/media/1.4ca66a8b8d794226ebd4.webp",
+    "static/media/5.webp": "/react_page/static/media/5.dacc7203906063c60d32.webp",
+    "static/media/6.webp": "/react_page/static/media/6.312698a96b1b4c720c3a.webp",
+    "static/media/3.webp": "/react_page/static/media/3.62c2b81f76f8bc42015d.webp",
+    "index.html": "/react_page/index.html",
+    "main.f9f045f7.css.map": "/react_page/static/css/main.f9f045f7.css.map",
+    "main.72731149.js.map": "/react_page/static/js/main.72731149.js.map",
+    "787.4fac3492.chunk.js.map": "/react_page/static/js/787.4fac3492.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9f045f7.css",
+    "static/js/main.72731149.js"
+  ]
+}
