@@ -34,7 +34,7 @@ const about = () => {
                         </article>
                     </div>{/* about_cards */}
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos deleniti ipsum quod sint, eius minima ullam nostrum? Sint, veniam! Repellat nam fuga rerum optio expedita quibusdam sapiente, labore odio culpa iusto. Sit sequi at neque aliquid earum est consequatur. Exercitationem quisquam nobis porro doloribus voluptate eum!</p>
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    <a href="mailto:bpand345@gmail.com" className='btn btn-primary'>Let's Talk</a>
                 </div>{/* about_content */}
             </div>{/* end container */}
         </section>

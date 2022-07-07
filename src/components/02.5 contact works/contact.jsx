@@ -16,48 +16,48 @@ const contact = () => {
             <div className="container portfolio_container">
                 <article className="portfolio_item">
                     <h3>This is a Portfolio Title</h3>
-                    <a href="lkjfdslkdsf" className='btn' target='_blank'>GitHub</a>
-                    <a href="lkjfdslkdsf" className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Nekrasalt" className='btn' target='_blank'>GitHub</a>
+                    <a href="https://github.com/Nekrasalt" className='btn btn-primary' target='_blank'>Live Demo</a>
                     <div className="portfolio_item_image">
                         <img src={ImgOne} alt="" />
                     </div>
                 </article>{/* portfolio_item */}
                 <article className="portfolio_item">
                     <h3>This is a Portfolio Title</h3>
-                    <a href="lkjfdslkdsf" className='btn' target='_blank'>GitHub</a>
-                    <a href="lkjfdslkdsf" className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Nekrasalt" className='btn' target='_blank'>GitHub</a>
+                    <a href="https://github.com/Nekrasalt" className='btn btn-primary' target='_blank'>Live Demo</a>
                     <div className="portfolio_item_image">
                         <img src={ImgTwo} alt="" />
                     </div>
                 </article>{/* portfolio_item */}
                 <article className="portfolio_item">
                     <h3>This is a Portfolio Title</h3>
-                    <a href="lkjfdslkdsf" className='btn' target='_blank'>GitHub</a>
-                    <a href="lkjfdslkdsf" className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Nekrasalt" className='btn' target='_blank'>GitHub</a>
+                    <a href="https://github.com/Nekrasalt" className='btn btn-primary' target='_blank'>Live Demo</a>
                     <div className="portfolio_item_image">
                         <img src={ImgThree} alt="" />
                     </div>
                 </article>{/* portfolio_item */}
                 <article className="portfolio_item">
                     <h3>This is a Portfolio Title</h3>
-                    <a href="lkjfdslkdsf" className='btn' target='_blank'>GitHub</a>
-                    <a href="lkjfdslkdsf" className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Nekrasalt" className='btn' target='_blank'>GitHub</a>
+                    <a href="https://github.com/Nekrasalt" className='btn btn-primary' target='_blank'>Live Demo</a>
                     <div className="portfolio_item_image">
                         <img src={ImgFour} alt="" />
                     </div>
                 </article>{/* portfolio_item */}
                 <article className="portfolio_item">
                     <h3>This is a Portfolio Title</h3>
-                    <a href="lkjfdslkdsf" className='btn' target='_blank'>GitHub</a>
-                    <a href="lkjfdslkdsf" className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Nekrasalt" className='btn' target='_blank'>GitHub</a>
+                    <a href="https://github.com/Nekrasalt" className='btn btn-primary' target='_blank'>Live Demo</a>
                     <div className="portfolio_item_image">
                         <img src={ImgFive} alt="" />
                     </div>
                 </article>{/* portfolio_item */}
                 <article className="portfolio_item">
                     <h3>This is a Portfolio Title</h3>
-                    <a href="lkjfdslkdsf" className='btn' target='_blank'>GitHub</a>
-                    <a href="lkjfdslkdsf" className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Nekrasalt" className='btn' target='_blank'>GitHub</a>
+                    <a href="https://github.com/Nekrasalt" className='btn btn-primary' target='_blank'>Live Demo</a>
                     <div className="portfolio_item_image">
                         <img src={ImgSix} alt="" />
                     </div>
